@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./build/output.css" />
+    <title>Mission 8</title>
+  </head>
+  <body>
+    <header>
+      <nav
+        class="fixed lg:absolute bg-offWhite container mx-auto left-0 right-0 top-0 py-4 px-4 z-50"
+      >
+        <div class="flex items-center justify-between">
+          <div class="pt-2">
+            <img src="./assets/images/logo.svg" alt="logo" />
+          </div>
+          <ul
+            class="hidden lg:flex capitalize space-x-11 xl:space-x-16 2xl:space-x-20"
+          >
+            <li>
+              <a
+                href="#"
+                class="text-dGrayishBlue transition duration-200 ease-in-out hover:text-softRed text-base font-semibold"
+                >home</a
+              >
+            </li>
+            <li>
+              <a
+                href="#"
+                class="text-dGrayishBlue transition duration-200 ease-in-out hover:text-softRed text-base font-semibold"
+                >new</a
+              >
+            </li>
+            <li>
+              <a
+                href="#"
+                class="text-dGrayishBlue transition duration-200 ease-in-out hover:text-softRed text-base font-semibold"
+                >popular</a
+              >
+            </li>
+            <li>
+              <a
+                href="#"
+                class="text-dGrayishBlue transition duration-200 ease-in-out hover:text-softRed text-base font-semibold"
+                >trending</a
+              >
+            </li>
+            <li>
+              <a
+                href="#"
+                class="text-dGrayishBlue transition duration-200 ease-in-out hover:text-softRed text-base font-semibold"
+                >categories</a
+              >
+            </li>
+          </ul>
+          <button
+            id="burger-menu"
+            class="lg:hidden block z-50 focus:outline-none"
+          >
+            <img
+              src="./assets/images/icon-menu.svg"
+              alt="hamburger"
+              id="burger-icon"
+              aria-label="Mobile Navigation Trigger"
+            />
+          </button>
+        </div>
+        <ul
+          id="menu"
+          class="bg-offWhite w-1/2 fixed hidden h-screen lg:hidden content-center space-y-8 top-0 right-0 pl-10 z-40 drop-shadow-2xl shadow-black"
+        >
+          <li>
+            <a
+              href="#"
+              class="text-dGrayishBlue text-xl md:text-2xl font-semibold"
+              >home</a
+            >
+          </li>
+          <li>
+            <a
+              href="#"
+              class="text-dGrayishBlue text-xl md:text-2xl font-semibold"
+              >new</a
+            >
+          </li>
+          <li>
+            <a
+              href="#"
+              class="text-dGrayishBlue text-xl md:text-2xl font-semibold"
+              >popular</a
+            >
+          </li>
+          <li>
+            <a
+              href="#"
+              class="text-dGrayishBlue text-xl md:text-2xl font-semibold"
+              >trending</a
+            >
+          </li>
+          <li>
+            <a
+              href="#"
+              class="text-dGrayishBlue text-xl md:text-2xl font-semibold"
+              >categories</a
+            >
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <section class="mt-28 pb-12">
+      <div class="container mx-auto">
+        <div class="flex flex-col md:flex-row">
+          <div class="w-full px-4 md:w-1/2 lg:w-7/12 xl:w-10/12 2xl:w-full">
+            <div>
+              <img
+                src="./assets/images/image-web-3-mobile.jpg"
+                alt="image-web-3-mobile"
+                class="mb-5 lg:hidden"
+              />
+              <img
+                src="./assets/images/image-web-3-desktop.jpg"
+                alt="image-web-3-desktop"
+                class="mb-7 hidden lg:block"
+              />
+            </div>
+            <div class="flex flex-col xl:flex-row mb-16 lg:mb-0">
+              <div class="xl:w-1/2">
+                <h1
+                  class="text-4xl max-w-2xl xl:max-w-3xl lg:text-5xl xl:text-6xl text-vdBlue font-bold mb-5"
+                >
+                  The Bright Future of Web 3.0?
+                </h1>
+              </div>
+              <div class="xl:w-1/2">
+                <p
+                  class="text-base sm:text-lg text-dGrayishBlue max-w-lg 2xl:max-w-sm mb-11"
+                >
+                  We dive into the next evolution of the web that claims to put
+                  the power of the platforms back into the hands of the people.
+                  But is it really fulfilling its promise?
+                </p>
+                <div class="mb-5">
+                  <a
+                    href="#"
+                    class="text-offWhite font-bold uppercase tracking-[0.4em] hover:bg-vdBlue trans transition duration-200 ease-in-out bg-softRed px-8 py-4"
+                    >read more</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="w-full px-4 md:w-1/2">
+            <div>
+              <div
+                class="bg-vdBlue md:max-w-sm lg:max-w-lg px-6 py-5 lg:py-7 xl:py-9"
+              >
+                <div>
+                  <h1
+                    class="capitalize text-softOrange text-3xl sm:text-4xl 2xl:text-5xl font-bold mb-6 2xl:mb-10"
+                  >
+                    new
+                  </h1>
+                  <div class="mb-6 2xl:mb-12">
+                    <a
+                      href="#"
+                      class="text-offWhite text-xl sm:text-2xl 2xl:text-3xl hover:text-softOrange transition duration-200 ease-in-out font-bold block mb-3"
+                    >
+                      Hydrogen VS Electric Cars
+                    </a>
+                    <p
+                      class="text-grayishBlue text-base sm:text-lg 2xl:text-xl max-w-xs"
+                    >
+                      Will hydrogen-fueled cars ever catch up to EVs?
+                    </p>
+                  </div>
+                  <div class="border-t border-l-grayishBlue mb-6 2xl:mb-12">
+                    <a
+                      href="#"
+                      class="text-offWhite text-xl sm:text-2xl 2xl:text-3xl hover:text-softOrange transition duration-200 ease-in-out font-bold block mt-6 mb-3"
+                    >
+                      The Downsides of AI Artistry
+                    </a>
+                    <p
+                      class="text-grayishBlue text-base sm:text-lg 2xl:text-xl max-w-sm"
+                    >
+                      What are the possible adverse effects of on-demand AI
+                      image generation?
+                    </p>
+                  </div>
+                  <div class="border-t border-l-grayishBlue">
+                    <a
+                      href="#"
+                      class="text-offWhite text-xl sm:text-2xl 2xl:text-3xl hover:text-softOrange transition duration-200 ease-in-out font-bold block mt-6 mb-3"
+                    >
+                      Is VC Funding Drying Up?
+                    </a>
+                    <p
+                      class="text-grayishBlue text-base sm:text-lg 2xl:text-xl max-w-sm"
+                    >
+                      Private funding by VC firms is down 50% YOY. We take a
+                      look at what that means.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="w-full flex flex-wrap px-4 mt-16 md:mt-8 lg:mt-20">
+          <div
+            class="flex gap-4 2xl:gap-5 items-center mb-12 md:w-1/2 xl:w-1/3"
+          >
+            <img
+              src="./assets/images/image-retro-pcs.jpg"
+              alt="image-retro-pcs"
+              class="max-w-[35%] h-full sm:scale-75 xl:scale-90 lg:max-w-[28%]"
+            />
+            <div class="max-w-sm">
+              <h1
+                class="text-4xl sm:text-5xl md:text-4xl font-bold text-grayishBlue mb-3"
+              >
+                01
+              </h1>
+              <a
+                href="#"
+                class="text-vdBlue font-bold text-xl sm:text-2xl md:text-lg lg:text-xl hover:text-softRed transition duration-150 ease-in-out block mb-3"
+              >
+                Reviving Retro PCs
+              </a>
+              <p
+                class="text-sm sm:text-lg md:text-base lg:text-lg text-dGrayishBlue"
+              >
+                What happens when old PCs are given modern upgrades?
+              </p>
+            </div>
+          </div>
+          <div
+            class="flex gap-4 2xl:gap-5 items-center mb-12 md:w-1/2 xl:w-1/3"
+          >
+            <img
+              src="./assets/images/image-top-laptops.jpg"
+              alt="image-top-laptops"
+              class="max-w-[35%] h-full sm:scale-75 xl:scale-90 lg:max-w-[28%]"
+            />
+            <div class="max-w-sm">
+              <h1
+                class="text-4xl sm:text-5xl md:text-4xl font-bold text-grayishBlue mb-3"
+              >
+                02
+              </h1>
+              <a
+                href="#"
+                class="text-vdBlue font-bold text-xl sm:text-2xl md:text-lg lg:text-xl hover:text-softRed transition duration-150 ease-in-out block mb-3"
+              >
+                Top 10 Laptops of 2022
+              </a>
+              <p
+                class="text-sm sm:text-lg md:text-base lg:text-lg text-dGrayishBlue"
+              >
+                Our best picks for various needs and budgets.
+              </p>
+            </div>
+          </div>
+          <div
+            class="flex gap-4 2xl:gap-5 items-center mb-12 md:w-1/2 xl:w-1/3"
+          >
+            <img
+              src="./assets/images/image-gaming-growth.jpg"
+              alt="image-gaming-growth"
+              class="max-w-[35%] h-full sm:scale-75 xl:scale-90 lg:max-w-[28%]"
+            />
+            <div class="max-w-sm">
+              <h1
+                class="text-4xl sm:text-5xl md:text-4xl font-bold text-grayishBlue mb-3"
+              >
+                03
+              </h1>
+              <a
+                href="#"
+                class="text-vdBlue font-bold text-xl sm:text-2xl md:text-lg lg:text-xl hover:text-softRed transition duration-150 ease-in-out block mb-3"
+              >
+                The Growth of Gaming
+              </a>
+              <p
+                class="text-sm sm:text-lg md:text-base lg:text-lg text-dGrayishBlue"
+              >
+                How the pandemic has sparked fresh opportunities.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <script src="script.js"></script>
+  </body>
+</html>
